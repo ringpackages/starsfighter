@@ -1,28 +1,30 @@
 aPackageInfo = [
-	:name = "The starsfighter Package",
-	:description = "Our starsfighter package using the Ring programming language",
+	:name = "The StarsFighter Package",
+	:description = "Our StarsFighter package using the Ring programming language",
 	:folder = "starsfighter",
-	:developer = "YourName",
-	:email = "YourEmail",
+	:developer = "Mahmoud Fayed",
+	:email = "msfclipper@yahoo.com",
 	:license = "MIT License",
-	:version = "0.1.0",
+	:version = "1.0.0",
 	:ringversion = "1.10",
 	:versions = 	[
 		[
-			:version = "0.1.0",
+			:version = "1.0.0",
 			:branch = "master"
 		]
 	],
 	:libs = 	[
 		[
-			:name = "",
-			:version = "",
+			:name = "gameengine",
+			:version = "1.0",
 			:providerusername = ""
 		]
 	],
 	:files = 	[
-		"lib.ring",
 		"main.ring",
+		"README.md"
+	],
+	:ringfolderfiles = 	[
 		"applications/starsfighter/fonts/pirulen.ttf",
 		"applications/starsfighter/images/enemy.png",
 		"applications/starsfighter/images/fire.png",
@@ -36,11 +38,7 @@ aPackageInfo = [
 		"applications/starsfighter/sound/sfx_die.wav",
 		"applications/starsfighter/sound/sfx_hit.wav",
 		"applications/starsfighter/sound/sfx_point.wav",
-		"applications/starsfighter/starsfighter.ring",
-		"README.md"
-	],
-	:ringfolderfiles = 	[
-
+		"applications/starsfighter/starsfighter.ring"
 	],
 	:windowsfiles = 	[
 
